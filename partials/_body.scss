@@ -2,20 +2,21 @@ $font-ibarra: 'Mate SC', serif;
 
 .body {
   font-family: $font-ibarra;
-  background-color: #CFF2AC;
+  background: #ef32d9; 
+  background: -webkit-linear-gradient(to bottom, #89fffd, #ef32d9);  
+  background: linear-gradient(to bottom, #89fffd, #ef32d9); 
   size: 50em;
   color: rgb(12, 12, 12);
 }
 
-.body .contenedor {
+/*.body .contenedor {
     width: 50%;
     border-radius:  10px;
     padding: 50px;
     text-align: center;
     margin: 50px auto;
   }
-
   .card-text {
     align-items: center;
     text-size-adjust:initial;
-  }
+  }*/
